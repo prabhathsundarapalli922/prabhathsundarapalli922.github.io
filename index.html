@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet"  type="text/css" href="Assignment2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>index.html</title>
+    <link rel="icon" type="image.png" href="https://cdn-icons-png.flaticon.com/512/3891/3891542.png"/>
+  </head>
+  <body>
+    
+   <div id="notification"></div>
+    <p><h3><b>Name: Prabhath Sundarapalli</b></h3></p>
+    <p><h3><b>Bachelors in applied computer science</b></h3></p>
+    <p><h2> I am thrilled to introduce my new website, which showcases my passions for photography, travel, and programming. Through this platform, I aim to share my journey and inspire others to pursue their passions.</h2></p>>
+    <header>
+    <nav>
+      <ul>
+        <li><a href="file:///C:/Users/prabh/Desktop/Programmer.html">Programmer</a></li>
+        <li><a href="file:///C:/Users/prabh/Desktop/travel.html">Travel</a></li>
+        <li><a href="file:///C:/Users/prabh/Desktop/photography.html">Photography</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="image" >
+      <img src="C:\Users\prabh\Downloads\WhatsApp Image 2023-02-06 at 1.16.28 PM.jpeg" class="img" alt="profile image" wedith="300px" height="500px"/>
+    </div> 
+    <div class="body-text">
+    <main>
+      <div id="splash">
+        <h1>Welcome to My Website</h1>
+        <p>Loading...</p>
+      </div>
+      
+      <section id="cgi developer">
+        <h1>Programming</h1>
+        <p>since my childhoood i was always fascinated by hackers an dcompuetr scientists.I have a strong desire to pursue a career in programming. The thought of being able to bring my ideas to life through code and make a tangible impact on the world is incredibly exciting to me.<br>
+             I am passionate about learning new programming languages and technologies, and I am constantly seeking to expand my knowledge and improve my skills. I believe that a career in programming will not only allow me to challenge myself and grow professionally, but it will<br>
+              also give me the opportunity to make a positive impact on the world through my work. I am eager to embark on this journey and see where it will take me </p>
+      </section>
+      <section id="travel">
+        <h1>Travel</h1>
+        <p>Traveling has not only been a source of personal growth for me, but it has also been a source of inspiration. I have been able to capture my adventures through writing, photography, and other forms of art, and these experiences have been a driving force behind my creativity.</p>
+
+            <p>In conclusion, traveling and exploring new things is a passion that brings me a sense of excitement and fulfillment. It is a journey that I will continue to pursue for the rest of my life, always seeking new experiences and discovering new parts of the world.</p>
+      </section>
+      <section id="photography">
+        <h1>Photography</h1>
+        <p>Photography is the art, science, and practice of creating durable images by recording light, either chemically or electronically. It involves capturing light onto a light-sensitive surface, such as film or a digital image sensor, using a camera.</p>
+      </section>
+      <div class="Colorscheme">
+       <button id="colorscheme1"onclick="changeColors()">Change Colors</button>
+      <button id="colorscheme2"onclick="changeColor()">Change Colors</button>
+      <button id="change-background-button">Dark Mode</button>
+      </div>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+  
+        <label for="hobby">hobby:</label>
+        <textarea id="hobby" name="hobby" rows="5" placeholder="Enter your hobby"></textarea>
+  
+        <button id="myButton">Submit</button>
+        <script>
+          document.getElementById("myButton").addEventListener("click", function() {
+            var hobby = document.getElementById("hobby").value;
+            alert("You entered your hobby ");
+          }); function changeColors() {
+              var body = document.querySelector("body");
+              body.style.backgroundColor = "#333";
+              body.style.color = "#FFFFFF";
+            }
+            function changeColor() {
+              var body = document.querySelector("body");
+              body.style.backgroundColor = "#1E90FF";
+              body.style.color = "#f5f5f5";
+            }
+         </script>
+        
+      </form>
+    </main>
+    </div>
+    <footer>
+      <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    </footer>
+  </body>
+</html>
